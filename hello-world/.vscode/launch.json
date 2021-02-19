@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Hello World",
+            "cwd": "${workspaceFolder}", // ${workspaceFolder}为当前项目的绝对路径
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron", // 批处理文件
+            "windows": {
+                "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+            },
+            "args": ["./index.js"],// 启动参数
+            "outputCapture": "std"
+        }
+    ]
+}
