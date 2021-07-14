@@ -1,0 +1,70 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.woff2?t=1624879218176') format('woff2'),
+  url('iconfont.woff?t=1624879218176') format('woff'),
+  url('iconfont.ttf?t=1624879218176') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Exit:before {
+  content: "\e60c";
+}
+
+.icon-kaiqilingsheng:before {
+  content: "\e698";
+}
+
+.icon-guanbilingsheng:before {
+  content: "\e699";
+}
+
+.icon-edit:before {
+  content: "\e658";
+}
+
+.icon-search:before {
+  content: "\e67c";
+}
+
+.icon-gupiao1:before {
+  content: "\e665";
+}
+
+.icon-delete:before {
+  content: "\e60f";
+}
+
+.icon-add:before {
+  content: "\e67b";
+}
+
+.icon-delete1:before {
+  content: "\e938";
+}
+
+.icon-Stocks:before {
+  content: "\e731";
+}
+
+.icon-stock:before {
+  content: "\e65e";
+}
+
+.icon-Stocks1:before {
+  content: "\eb96";
+}
+
+.icon-minus:before {
+  content: "\e66d";
+}
+
+.icon-add1:before {
+  content: "\e689";
+}
+
